@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Home from "./components/Home";
+import Header from "./components/Headers";
+import { useEffect, useState } from "react";
+import { Toaster } from "react-hot-toast";
 
-function App() {
+const App = () => {
+  const [users, setUsers] = useState([]);
+
+  const baseUrl = "http://localhost:3001";
+
+  const getUsers = async () => {
+    const res = await fetch(`${baseUrl}/users`, {
+      method: "GET",
+      mode: "cors",
+    });
+    const usersList = await res.json();
+    console.log(usersList);
+    setUsers(usersList);
+  };
+
+  useEffect(() => {
+    getUsers();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Toaster position="bottom-center" />
+      <Header getUsers={getUsers} />
+      <Home users={users} getUsers={getUsers} />
+    </>
   );
-}
+};
 
 export default App;
