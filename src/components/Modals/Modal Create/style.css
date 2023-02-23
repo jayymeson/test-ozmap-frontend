@@ -1,0 +1,48 @@
+.modal-overlay {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #0000004f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-conteiner {
+  width: 25rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 0.4rem;
+}
+
+.modal-conteiner > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding-inline: 0.4rem;
+}
+
+.modal-conteiner > div > h3 {
+}
+
+.modal-conteiner > div > button {
+}
+
+.modal-conteiner > input {
+  margin-bottom: 0.5rem;
+}
+
+.button-add {
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10rem;
+  cursor: pointer;
+}
