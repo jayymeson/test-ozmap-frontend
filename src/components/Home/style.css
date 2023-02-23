@@ -1,0 +1,31 @@
+.home-conteiner {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  min-height: calc(80vh - 6rem);
+}
+
+.home-conteiner > h1 {
+  align-items: center;
+  justify-self: center;
+  font-size: large;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+}
+
+.home-conteiner > input {
+  margin-bottom: 2rem;
+  height: 2rem;
+  width: 15rem;
+  border-radius: 10px;
+}
+
+.home-conteiner > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
