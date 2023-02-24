@@ -1,6 +1,6 @@
 .card-conteiner {
-  width: 30%;
-  height: 150px;
+  width: 20rem;
+  height: 200px;
   padding: 8px;
   margin: 30px;
   border-radius: 20px;
@@ -35,7 +35,7 @@
 }
 
 .card-conteiner > p {
-  font-size: xx-small;
+  font-size: small;
   height: 35px;
   margin-bottom: 5px;
 }

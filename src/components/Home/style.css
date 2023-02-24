@@ -10,7 +10,8 @@
 
 .home-conteiner > h1 {
   align-items: center;
-  justify-self: center;
+  display: flex;
+  justify-content: center;
   font-size: large;
   font-weight: 300;
   letter-spacing: 1px;

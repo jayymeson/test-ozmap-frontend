@@ -24,13 +24,11 @@ const ModalRemove = ({ closeModal, user, getUsers }) => {
         <div className="modal-header">
           <button onClick={closeModal}>X</button>
         </div>
-        <h3>Remove {user.name}? </h3>
-      </div>
-      <div className="modal-actions">
+        <h3>Remover {user.name}? </h3>
         <button className="cancel" onClick={closeModal}>
           No
         </button>
-        <button clasName="confirm" onClick={handleRemoveShirt}>
+        <button className="confirm" onClick={handleRemoveShirt}>
           Yes
         </button>
       </div>
