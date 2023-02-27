@@ -25,7 +25,7 @@ O Git Bash faz parte do pacote Git for Windows, que é oferecido no próprio sit
 Clone o projeto na janela que abriu com o seguinte comando:
 
 ```bash
-  git clone https://github.com/jayymeson/test-ozmap.git
+  git clone https://github.com/jayymeson/test-ozmap-frontend.git
 ```
 Após isso pode fechar a janela!
 
