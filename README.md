@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Aplicação de teste para a OZ Map
 
-## Available Scripts
+#  <h1 align="center"> [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ffffff&size=35&center=true&vCenter=true&width=1000&lines=Seja+bem+vindo(a)+ao+Gerenciador+de+Usuários!)](https://git.io/typing-svg) </h1>
 
-In the project directory, you can run:
+ [Projeto Desenvolvido para um teste](https://blueedtech.gitbook.io/m7-bootcamp/challenges/cloudwalk-gerenciador-de-e-commerce)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ ## Como instalar o Git Bash  <img align="center" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+O Git Bash faz parte do pacote Git for Windows, que é oferecido no próprio site oficial do Git, em: https://git-scm.com/download/win
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Abrir e rodar o projeto
 
-### `npm run build`
+1. Instalar o Git Bash em sua máquina. <br>
+2. Criar uma pasta do projeto em seu computador. <br>
+3. Clique com o botão direito do mouse na pasta e selecione o Git bash. <br>
+4. Após abrir a janela, vamos dar início no clone do projeto.<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ❗ Atenção, esse procedimento deve ser feito somente após o git Bash estar instalado em sua máquina!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone o projeto na janela que abriu com o seguinte comando:
 
-### `npm run eject`
+```bash
+  git clone https://github.com/jayymeson/test-ozmap.git
+```
+Após isso pode fechar a janela!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📁 Acesso ao projeto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Entre na pasta do projeto pelo Visual Studio, abra o terminal do visual Studio e
+vá para o diretório do projeto com o comando:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+  cd teste-ozmap-frontend
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Instale as dependências
 
-## Learn More
+```bash
+  npm i
+```
+## 🌐 Rodando localmente
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Inicie o servidor
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+  npm start
 
-### Code Splitting
+```
+1. Para abrir a aplicação no navegador, basta clicar no link da primeira opção <b>"Local"</b> com a tecla CTRL pressionada. 
+<br> 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![image](https://github.com/seven-cloudwalk/frontend-seven-cloudwalk/blob/main/src/assets/Images/serverReact.png)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Stack utilizada ⚙
+<br> 
 
-### Making a Progressive Web App
+**Linguagens:** 
+  <img align="center" alt="Javascript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">  
+  
+**Bibliotecas:** 
+ <img align="center" alt="ReactJs" src="https://img.shields.io/badge/-ReactJs-informational?style=for-the-badge&logo=react&message==white&logoColor=white"> 
+ 
+**Ferramentas:** 
+  <img align="center" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="Visual Studio"> 
+    
+<br> 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Autor 👨🏼‍💻👨🏼‍💻👨🏼‍💻👨🏼‍💻
 
-### Advanced Configuration
+ [<img src="https://avatars.githubusercontent.com/u/100086459?v=4" width=115><br><sub>Jaymeson Mendes</sub>](https://github.com/jayymeson)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
