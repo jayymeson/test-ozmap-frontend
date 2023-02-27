@@ -34,7 +34,7 @@ const ModalCreate = ({ closeModal, getUsers }) => {
     console.log(res);
 
     if (res.status !== 201) {
-      return toast.error("Criação de usuário falhou");
+      return toast.error("E-mail já cadastrado ou e-mail inválido.");
     }
 
     setnName("");
