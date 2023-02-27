@@ -1,6 +1,6 @@
 .card-conteiner {
-  width: 30%;
-  height: 150px;
+  width: 20rem;
+  height: 200px;
   padding: 8px;
   margin: 30px;
   border-radius: 20px;
@@ -14,17 +14,17 @@
 .card-header {
   display: flex;
   width: 100%;
-  height: 70px;
+  height: 65px;
   justify-content: space-around;
 }
 
 .card-header > p {
-  margin-top: 15px;
+  margin: 15px;
   font-size: smaller;
 }
 
 .card-conteiner > div > img {
-  width: 100px;
+  width: 65px;
 }
 
 .card-conteiner > h3 {
@@ -35,7 +35,7 @@
 }
 
 .card-conteiner > p {
-  font-size: xx-small;
+  font-size: small;
   height: 35px;
   margin-bottom: 5px;
 }
@@ -49,10 +49,10 @@
   height: 3rem;
   width: 0.3rem;
   display: flex;
-  justify-content: flex-start;
 }
 
 .icons {
   height: 2rem;
   cursor: pointer;
+  margin-right: 7px;
 }

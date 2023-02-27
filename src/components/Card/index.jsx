@@ -24,8 +24,8 @@ const Card = ({ user, getUsers }) => {
           <p>{`${user.name}`}</p>
           <img src={user.img} alt={`${user.name}`} />
         </div>
-        <h3>{user.name}</h3>
-        <p>{user.description}</p>
+        <h3>{user.description}</h3>
+        <p>{user.email}</p>
         <div className="card-body">
           <img
             onClick={handleShowEditModal}
